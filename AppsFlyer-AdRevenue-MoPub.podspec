@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AppsFlyer-AdRevenue-MoPub'
-  s.version          = '0.2.0'
+  s.version          = '0.3.1'
   s.summary          = 'The meaningful summary of AppsFlyer-AdRevenue-MoPub.'
   s.description      = <<-DESC
 AppsFlyer-AdRevenue-MoPub description. Description will be added shortly.
@@ -16,7 +16,7 @@ AppsFlyer-AdRevenue-MoPub description. Description will be added shortly.
   #s.source_files = 'AppsFlyer-AdRevenue-MoPub/Classes/**/*'
   s.vendored_frameworks = 'iOS/AppsFlyerAdRevenueMoPub.framework'
   
-  s.dependency 'AppsFlyer-AdRevenue'
+  s.dependency 'AppsFlyer-AdRevenue', '0.3.1'
   s.dependency 'mopub-ios-sdk', '5.8.0'
   s.static_framework = true
   
