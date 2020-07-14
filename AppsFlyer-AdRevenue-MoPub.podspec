@@ -11,7 +11,7 @@ AppsFlyer-AdRevenue-MoPub description. Description will be added shortly.
   s.author           = { 'Andrey' => 'andrii.h@appsflyer.com' }
   s.source           = { :git => 'https://github.com/AppsFlyerSDK/adrevenue-apple-mopub.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.vendored_frameworks = 'iOS/AppsFlyerAdRevenueMoPub.framework'
   
