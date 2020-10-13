@@ -50,8 +50,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface AFADRMoPub : AFADRWrapper
+
 + (NSDictionary *)_getData:(id)anyData;
-+ (NSDictionary *)extractMoPubInterstitialDetails:(MPInterstitialAdController *)interstitial;
+
 @end
 
 NS_ASSUME_NONNULL_END
